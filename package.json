@@ -1,0 +1,22 @@
+{
+  "name": "chat-ia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-transcribe": "^3.335.0",
+    "@google-cloud/speech": "^5.5.0",
+    "aws-sdk": "^2.1380.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
